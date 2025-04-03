@@ -1,0 +1,95 @@
+body {
+    font-family: 'Courgette', cursive;
+    background: linear-gradient(to right, #ffe6f2, #ffb3d9);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #ff66b2;
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+}
+
+.hero {
+    padding: 50px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    color: #ff3385;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff3385;
+    color: white;
+    padding: 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #cc0052;
+}
+
+.gallery {
+    padding: 40px;
+}
+
+.photos img {
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.photos img:hover {
+    transform: scale(1.1);
+}
+
+.counter {
+    background: #ff99cc;
+    padding: 30px;
+    color: white;
+}
+
+.pedido-body {
+    background: #ff66b2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.pedido-container {
+    background: white;
+    color: #ff3385;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.botoes .btn {
+    margin: 10px;
+}
+
+#nao-btn {
+    background: red;
+    position: relative;
+}
+
+footer {
+    background: #ff3385;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+}
